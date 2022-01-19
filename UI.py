@@ -1,17 +1,4 @@
-from cProfile import label
-from cgi import print_environ_usage
-from pathlib import Path
-
 from tkinter import *
-from tkinter import ttk
-from turtle import width
-
-OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path("./assets")
-
-
-def relative_to_assets(path: str) -> Path:
-    return ASSETS_PATH / Path(path)
 
 
 # Main Window
